@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="./Asset/StyleSignIn.css">
+    <link rel="icon" href="./Asset/Gallery/icon.jpg" type = "image/x-icon">
+</head>
+<body>
+    <header>
+        <div id="headText">
+            <h2>
+                3rd Year
+            </h2>
+            <p>
+                Please Sign In First
+            </p>
+        </div>
+    </header>
+    <body>
+        <div class="contentForm">
+            <h4 id="upperText">Sign In</h4>
+            <form id="formLogin" action="./Index.html">
+                <div class="formElement">
+                    <label for="inputUsername">Username :</label><br>
+                    <input type="text" class="inputBox" id="inputUsername" name="Username" placeholder="Masukan Username" required>
+                </div>
+                <div class="formElement">
+                    <label for="inputPassword">Password :</label><br>
+                    <input type="password" class="inputBox passwordBox" id="inputPassword" name="Password" placeholder="Masukan Password" required>
+                    <input type="checkbox" id="toggle-password" />
+                    <label for="toggle-password">Show Password</label>
+                </div>
+                <div class="formElement">
+                    <input type="button" value="Sign In" class="btnLogin" id="submitBtn" onclick="submitaa()">
+                </div>
+            </form>
+            <p id="bottomText">Get Your Username And Password <a href="https://drive.google.com/file/d/1BBY3PUMrLM7rhPE2--4x6eTuPkAdiOdz/view?usp=sharing" target="_blank" rel="noopener noreferrer" id="linkForm">Here</a></p>
+        </div>
+        <div id="help">
+            <p>Trouble With Sign In? Need Some Help? <a href="http://wa.me/6285213463412" target="_blank" rel="noopener noreferrer" id="link">Help</a></p>
+        </div>
+    </body>
+    <footer>
+        <p>&#169; 2019 - 2022, Anathanosss Ltd.</p>
+    </footer>
+    <script src="./Asset/Script/SignIn.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>
+        var usernameVal = "TYsMfttYiLYSm"
+        var passwordVal = "3y0A1S4cilY"
+        function submitaa(){
+            if(username.value == usernameVal && password.value == passwordVal){
+                swal({
+                    title : "Congratulation !",
+                    text : "You Can Continue",
+                    icon : "success",
+                    closeOnClickOutside: false,
+                    closeOnEsc: false,
+                    button : "Continue"
+                })
+                .then((button) => {document.getElementById("formLogin").submit();});
+            }   
+            else if (username.value == usernameVal){
+                swal({
+                    title : "Wrong Password !",
+                    text : "You Can't Sign In",
+                    icon : "error",
+                    closeOnClickOutside: false,
+                    closeOnEsc: false,
+                    button : "Try Again"
+                })
+            }
+            else if (password.value == passwordVal){
+                swal({
+                    title : "Wrong Username !",
+                    text : "You Can't Sign In",
+                    icon : "error",
+                    closeOnClickOutside: false,
+                    closeOnEsc: false,
+                    button : "Try Again"
+                })
+            }
+            else{
+                swal({
+                    title : "Wrong Username And Password !" ,
+                    text : "You Can't Sign In",
+                    icon : "error",
+                    closeOnClickOutside: false,
+                    closeOnEsc: false,
+                    button : "Try Again"
+                })
+            }
+        }
+    </script>
+</body>
+</html>

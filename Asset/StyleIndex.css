@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Secular+One&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: inline;
+    text-align: center;
+}
+#jumboTron{
+    padding: 20px;
+    height: 730px;
+    background-image: url('../Asset/Gallery/BannerAnimation.gif');
+    background-position: center;
+    text-align: center;
+    
+}
+.upper{
+    margin: 150px 20px 0 20px;
+    font-family: 'Fredoka One', cursive;
+    font-weight: lighter;
+    font-size: 60px;
+    padding: 50px;
+    background-color: rgb(255, 255, 255,0.6);
+    border-radius: 10px;
+}
+.text{
+    font-size: 20px;
+    padding: 10px;
+}
+.judul{
+    font-family: 'Fredoka One', cursive;
+    font-weight: lighter;
+    font-size: 80px;
+    padding : 100px 100px 100px 100px;
+}
+.smallerTron{
+    font-family: 'Secular One', sans-serif;
+    font-weight: normal;
+    color:#E3FDFD;
+    height: 730px;
+    background-color:#3D84A8;
+    text-align: center;
+    font-size: 65px;
+    padding: 30px;
+}
+#memory{
+    background-image: url(../Asset/Gallery/2019.gif);
+    height: 550px;
+    width: 1100px;
+    float: right;
+    position: relative;
+    right: 15px;
+    top: 30px;
+    background-color:rgb(227, 253, 253,0.6);
+    border-radius: 20px 0 20px 0;
+    visibility: hidden;
+}
+.journey{
+    display: block;
+    text-align: left;
+    margin: 40px;
+    padding: 10px;
+    width: 280px;
+    border-radius: 10px;
+}
+#arrsatuSembilan,#arrduaPuluh,#arrduaSatu{
+    visibility: hidden;
+}
+nav{
+    font-family: 'Secular One', sans-serif;
+    font-weight: normal;
+    color: whitesmoke;
+    height: 110px;
+    position: sticky;
+    top: 0;
+    background-color:  #A6E3E9;
+    text-align: center;
+    padding: 20px;
+    font-size: 60px;
+}
+nav li{
+    display: inline;
+    padding: 0 30px;
+}
+.tahun{
+    text-decoration:none ;
+    color:#3D84A8;
+}
+.tahun:hover{
+    color:  #E3FDFD;
+    text-shadow: 2px 2px 10px black;
+}
+body{
+    background-color: #E3FDFD;
+}
+.boxContent{
+    margin: 50px;
+    border-radius: 10px;
+    background-color: rgb(61, 132, 168, 0.25);
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+}
+#contentA{
+    height: 1900px;
+}
+#contentB{
+    height: 2010px;
+}
+#contentC{
+    height: 2170px;
+}
+#contentD{
+    height: 1710px;
+}
+.gambar{
+    border-radius: 40px;
+    padding-top: 10px;
+}
+.paragraph{
+    padding: 5px 50px ;
+}
+.link{
+    text-decoration: none;
+    background-color:rgb(227, 253, 253,0.7);
+    color:black;
+    border-radius: 5px;
+}
+.link:hover{
+    background-color:inherit;
+    color:rgb(227, 253, 253);
+    text-shadow: 2px 2px 8px black ;
+}
+.pdf{
+    float: right;
+    width: 1000px;
+    height: 500px;
+    background-color: rgb(61, 132, 168, 0.15);
+}
+.menu{
+    float: left;
+    margin: 10px;
+    padding: 20px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 19px;
+}
+.pdfSelector{
+    padding: 10px;
+}
+.video{
+    padding: 60px;
+}
+footer{
+    background-color: #3D84A8;
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+    text-align: center;
+}
+footer p{
+    padding: 30px 0 0 30px;
+    font-size: 20px;
+    font-weight: lighter;
+}

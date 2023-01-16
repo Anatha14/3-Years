@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Secular+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #E3FDFD;
+}
+#headText{
+    margin-top: 20px;
+    padding: 0 20px 20px 20px;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+}
+.contentForm{
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    height : 430px;
+    width: 350px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 black;
+    border-radius: 10px;
+    font-family: 'Secular One', sans-serif;
+    background-color: #A6E3E9;
+    color: black;
+    opacity: 80%;
+
+}
+#upperText{
+    font-size: 25px;
+}
+.formElement{
+    padding-top: 25px;
+    font-size: 20px;
+}
+.inputBox{
+    border-radius: 10px;
+    height: 50px;
+    width: 340px;
+    text-align: center;
+    font-size: large;
+    background-color: #E3FDFD;
+}
+#inputPassword{
+    background-image: url("https://img.icons8.com/material-sharp/20/000000/visible.png");
+    background-position: 97% center ;
+    background-repeat: no-repeat
+}
+#inputPassword.visible {
+    background-image: url("https://img.icons8.com/material-outlined/20/000000/invisible.png");
+}
+#toggle-password {
+    display: none;
+}
+#toggle-password + label {
+    text-indent: -9999px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: -32px;
+    cursor: pointer;
+}
+.btnLogin{
+    height: 80px;
+    width: 340px;
+    font-size: larger;
+    border-radius: 15px;
+    border-color:  #A6E3E9;
+    background-color: #71C9CE;
+    box-shadow: 0 4px 8px 0 black;
+    font-family: 'Secular One', sans-serif;
+    color: whitesmoke;
+}
+.btnLogin:hover{
+    color: black;
+    background-color: #E3FDFD ;
+}
+#bottomText{
+    position: relative;
+    top:5%;
+    font-size: larger;
+}
+#linkForm{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+#linkForm:hover{
+    color: #E3FDFD;
+    text-shadow: 2px 2px 8px black;
+}
+#help{
+    padding: 0 20px;
+    font-size: larger;
+    font-family: 'Secular One', sans-serif;
+    position:fixed;
+    bottom: 60px;
+}
+#link{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#link:hover{
+    color:#E3FDFD ;
+    text-shadow: 2px 2px 8px black;
+}
+footer{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 40px;
+    width:100%;
+    font-size: larger;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    padding: 10px 0 0 10px;
+    background-color: #3D84A8;
+    color: whitesmoke;
+}
+.swal-overlay {
+    background-color: rgba(131, 219, 198, 0.45);
+}
+.swal-modal {
+    background-color: white;
+    border: 2px solid rgb(58, 88, 255);
+    border-radius: 15px;
+}
+.swal-button {
+  padding: 7px 19px;
+  border-radius: 2px;
+  background-color: #4962B3;
+  font-size: 12px;
+  border: 1px solid #3e549a;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+}
