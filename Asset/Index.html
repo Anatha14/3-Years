@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="./Asset/StyleIndex.css">
-    <link rel="icon" href="./Asset/Gallery/icon.jpg" type = "image/x-icon">
+    <link rel="stylesheet" href="./StyleIndex.css">
+    <link rel="icon" href="./Gallery/icon.jpg" type = "image/x-icon">
 </head>
 <body>
     <header>
@@ -37,8 +37,8 @@
     <main>
         <div class="boxContent" id="contentA">
             <h2 id="satuSembilan" class="judul">2019</h2>
-            <img src="./Asset/Gallery/2019A.jpg" alt="2019" class="gambar">
-            <img src="./Asset/Gallery/2019B.jpg" alt="2019" class="gambar">
+            <img src="./Gallery/2019A.jpg" alt="2019" class="gambar">
+            <img src="./Gallery/2019B.jpg" alt="2019" class="gambar">
             <h1 class="judul">All Start From Here</h1>
             <div class="text">
                 <p class="paragraph">
@@ -63,8 +63,8 @@
         </div>
         <div class="boxContent" id="contentB">
             <h2 id="duaPuluh" class="judul">2020</h2>
-            <img src="./Asset/Gallery/2020A.jpg" alt="2020" class="gambar" height="1000px">
-            <img src="./Asset/Gallery/2020B.jpg" alt="2020" class="gambar" height="800px">
+            <img src="./Gallery/2020A.jpg" alt="2020" class="gambar" height="1000px">
+            <img src="./Gallery/2020B.jpg" alt="2020" class="gambar" height="800px">
             <h1 class="judul">First Anniversarry</h1>
             <div class="text">
                 <p class="paragraph">
@@ -77,7 +77,7 @@
                     <i>Sorry</i> kalo pas hari itu aku malah nangis, harusnya kan hari itu kamu senang-senang sama keluarga. Malah jadinya kepikiran sama aku. <i>Sorry</i> juga kalo dalam satu tahun ini aku banyak salah dan ga sesuai sama apa maunya lu. &#128542
                 </p>
                 <p class="paragraph">
-                    Oiya, tahun ini juga aku buat cerita-cerita selama setahun kebelakang, buat mengingat lagi, bisa klik di <a href="./html/Asset2020.html" target="_blank" rel="noopener noreferrer" class="link">Sini</a>
+                    Oiya, tahun ini juga aku buat cerita-cerita selama setahun kebelakang, buat mengingat lagi, bisa klik di <a href="./Asset2020.html" target="_blank" rel="noopener noreferrer" class="link">Sini</a>
                 </p>
                 <p class="paragraph">
                     Kalau di tahun ini aku mau tanya, Gimana rasanya jalanin hubungan sama aku 1 tahun itu??? Kamu senang atau malah sebaliknya??? 	&#128543 &#128151 &#128151
@@ -92,8 +92,8 @@
         </div>
         <div class="boxContent" id="contentC">
             <h2 id="duaSatu" class="judul">2021</h2>
-            <img src="./Asset/Gallery/2021A.jpg" alt="2021" class="gambar"  height="900px">
-            <img src="./Asset/Gallery/2021B.jpg" alt="2021" class="gambar">
+            <img src="./Gallery/2021A.jpg" alt="2021" class="gambar"  height="900px">
+            <img src="./Gallery/2021B.jpg" alt="2021" class="gambar">
             <h1 class="judul">Full Online</h1>
             <div class="text">
                 <p class="paragraph">
@@ -122,7 +122,7 @@
         </div>
         <div class="boxContent" id="contentD">              
             <h2 id="duaDua" class="judul">2022</h2>
-            <img src="./Asset/Gallery/2022.gif" alt="2022" class="gambar">
+            <img src="./Gallery/2022.gif" alt="2022" class="gambar">
             <h1 class="judul">So, What's Next?</h1>
             <div class="text">
                 <p class="paragraph">
@@ -147,7 +147,7 @@
         </div>
         <div class="boxContent">
             <video width="1000px" controls class="video">
-                <source src="./Asset/Gallery/VideoAkhir.mp4" type="video/mp4">
+                <source src="./Gallery/VideoAkhir.mp4" type="video/mp4">
             </video>
         </div>
         <footer>
@@ -175,7 +175,7 @@
                 i = 0;
             }
             $("#jumboTron").fadeOut("slow",function () {
-                $(this).css("background-image", "url(Asset/Gallery/" + images[i] + ")");
+                $(this).css("background-image", "url(Gallery/" + images[i] + ")");
                 $(this).fadeIn("slow");
             });
         }, 5500);
@@ -202,7 +202,7 @@
       $(this).css("background-color", "rgb(255,255,255,0.5)");
       $(this).css("color", "#3D84A8");
       $('#arrsatuSembilan').css("visibility","visible");
-      $('#memory').css("background-image", "url(Asset/Gallery/2019.gif");
+      $('#memory').css("background-image", "url(Gallery/2019.gif");
       $('#memory').css("visibility", "visible");
       restartAnimation($('#memory'));
       hideduaPuluh();
@@ -219,7 +219,7 @@
       $(this).css("background-color", "rgb(255,255,255,0.5)");
       $(this).css("color", "#3D84A8");
       $('#arrduaPuluh').css("visibility","visible");
-      $('#memory').css("background-image", "url(Asset/Gallery/2020.gif");
+      $('#memory').css("background-image", "url(Gallery/2020.gif");
       $('#memory').css("visibility", "visible");
       restartAnimation($('#memory'));
       hidesembilanBelas();
@@ -236,7 +236,7 @@
       $(this).css("background-color", "rgb(255,255,255,0.5)");
       $(this).css("color", "#3D84A8");
       $('#arrduaSatu').css("visibility","visible");
-      $('#memory').css("background-image", "url(Asset/Gallery/2021.gif");
+      $('#memory').css("background-image", "url(Gallery/2021.gif");
       $('#memory').css("visibility", "visible");
       restartAnimation($('#memory'));
       hidesembilanBelas();
